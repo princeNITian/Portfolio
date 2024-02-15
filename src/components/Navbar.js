@@ -89,13 +89,13 @@ export const Navbar = () => {
               onKeyDown={toggleDrawer(false)}
             >
               <List>
-                <ListItemButton key="Home">
+                <ListItemButton href="home" key="Home">
                   <ListItemIcon>
                     <HomeIcon />
                   </ListItemIcon>
                   <ListItemText primary="Home" />
                 </ListItemButton>
-                <ListItemButton key="About">
+                <ListItemButton href="about" key="About">
                   <ListItemIcon>
                     <InfoIcon />
                   </ListItemIcon>
@@ -110,7 +110,7 @@ export const Navbar = () => {
                   </ListItemIcon>
                   <ListItemText primary="Contact" />
                 </ListItemButton>
-                <ListItemButton key="Projects">
+                <ListItemButton href="featured" key="Projects">
                   <ListItemIcon>
                     <WorkIcon />
                   </ListItemIcon>
